@@ -101,12 +101,12 @@ void MainWindow::on_pushButton_clicked()
 {
     zSec = ui->spinBox_seconds->value();
 
-    if(ui->spinBox_seconds->value() > 10 && ui->spinBox_seconds->value() < 80)
+    if(ui->spinBox_seconds->value() > 4 && ui->spinBox_seconds->value() < 80)
     {
         showDialog("Zubair",zSec);
     }
     else
     {
-        QMessageBox::warning(this,"Error","Please enter a value between 11 to 79");
+        QMessageBox::warning(this,"Error","Please enter a value between 5 to 79");
     }
 }

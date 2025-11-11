@@ -49,6 +49,9 @@
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 250, 85);</string>
     </property>
+    <property name="suffix">
+     <string> Sec</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
